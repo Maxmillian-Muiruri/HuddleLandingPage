@@ -92,7 +92,7 @@ nav {
  width: 80%;
 }
 
-style for the footer in style.css file.
+/* style for the footer in style.css file. */
 
 footer {
  background-color: hsl(192, 100%, 9%);
@@ -124,4 +124,33 @@ footer .circle {
 }
 footer p {
  text-align: right;
+}
+
+/* code in style.css for mobile view. */
+
+@media screen and (max-width: 768px) {
+ body {
+  text-align: center;
+ }
+nav.flex {
+  flex-direction: row;
+ }
+.header-img {
+  margin-top: 40px;
+  margin-left: 0;
+  width: 100%;
+ }
+.flex {
+  flex-direction: column;
+ }
+.box-reverse-mobile {
+  flex-direction: column-reverse;
+ }
+footer ul {
+  padding: 0;
+  width: 100%;
+ }
+footer p {
+  text-align: center;
+ }
 }
