@@ -165,90 +165,51 @@ nav {
   color: #020202;
   margin-right: 2rem;
 }
-.footer-form{
-  margin: 8px 0;
-  padding: 0.6rem 2rem;
-  border-radius: 0.3rem;
-  position: absolute;
-  width: 90%;
-  margin: 8px 0;
-  border: none;
-  border-radius: 0.3rem;
-  background-color: #ffffff;
-  color: #020202;
-  margin-right: 2rem;
-  background-color: #ff52bf;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 2rem;
-  color: #f5faff;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
-}
-.footer .newsletter .btn-footer {
-  border: none;
-  background-color: #ff52bf;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 2rem;
-  color: #f5faff;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
-  padding: 1.3rem 7rem;
-}
-footer .social-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.btn-footer {
+display: flex;
+flex-direction: column;
+margin: 10px;
+padding: 1.3rem 7rem;
+background-color: #ff52bf;
+
  }
+ .contacts {
+  color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+margin: 20px;
+
+ }
+ 
+ .social-icons{
+  color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+margin: 0px 10px 30px 30px;
+ }
+ .bi-envelope-fill{
+  margin-top: 1%;
+  color: rgb(241, 235, 235);
+ }
+ .bi-envelope-fill:hover{
+  cursor: pointer;
+  color: #ff52bf;
+ }
+ .bi-telephone-x:hover{
+  cursor: pointer;
+  color: #ff52bf;
+ }
+
  p {
   color: #fff;
  }
-/* style for the footer in style.css file. */
-
-/* footer {
- background-color: hsl(192, 100%, 9%);
- color: #fff;
- padding: 180px 0 60px;
-}
-footer ul {
- list-style-type: none;
-}
-footer ul li {
- margin-bottom: 20px;
-}
-footer .social-media {
- display: flex;
- align-items: center;
- justify-content: center;
-}
-footer .circle {
- border: 1px solid #fff;
- border-radius: 50%;
- color: #fff;
- display: inline-flex;
- align-items: center;
- justify-content: center;
- margin-right: 10px;
- height: 40px;
- width: 40px;
- text-decoration: none;
-}
-footer p {
- text-align: right;
-} */
-
 /* code in style.css for mobile view. */
 
 @media screen and (max-width: 768px) {
   body {
     text-align: center;
+
   }
   nav.flex {
     flex-direction: row;
